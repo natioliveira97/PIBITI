@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nao/PIBITI/DisplayImage.cpp
+stdio.h
+-
+opencv2/opencv.hpp
+-
+opencv2/aruco.hpp
+-
+

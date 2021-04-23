@@ -1,0 +1,2 @@
+cv_camera:ekf_aruco:fiducials/aruco_detect:fiducials/fiducial_msgs:fiducials/fiducial_slam:fiducials/fiducials:openni_camera/openni_camera:openni_camera/openni_description:openni_camera/openni_launch:openni_tracker:skeleton_markers:test
+-DCATKIN_DEVEL_PREFIX=/home/nao/PIBITI/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nao/PIBITI/catkin_ws/install -G Unix Makefiles

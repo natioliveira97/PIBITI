@@ -1,0 +1,19 @@
+<launch>
+    
+    <arg name="camera_name" default="camera"/>
+    
+    <node pkg="cv_camera" type="cv_camera_node" name="$(arg camera_name)" >
+    </node>
+
+    <!-- <arg name="camera" default="/camera"/>
+    <arg name="image" default="/camera/image_raw"/>
+    <arg name="square" default="0.026"/>
+    <arg name="size" default="9x6"/>
+    <node pkg="camera_calibration" type="cameracalibrator.py" name="calibration">
+        <param name="image" value="$(arg image)"/>
+        <param name="camera" value="$(arg camera)" />
+        <param name="square" value="$(arg square)"/>
+        <param name="size" value="$(arg size)"/>
+    </node> -->
+
+</launch>

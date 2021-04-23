@@ -1,0 +1,8 @@
+prefix=/home/nao/PIBITI/catkin_ws/devel
+
+Name: test
+Description: Description of test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: fiducial_msgs geometry_msgs roscpp visualization_msgs

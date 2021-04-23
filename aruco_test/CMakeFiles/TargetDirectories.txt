@@ -1,0 +1,3 @@
+/home/nao/PIBITI/CMakeFiles/rebuild_cache.dir
+/home/nao/PIBITI/CMakeFiles/edit_cache.dir
+/home/nao/PIBITI/CMakeFiles/DisplayImage.dir

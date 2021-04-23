@@ -1,0 +1,8 @@
+prefix=/home/nao/PIBITI/catkin_ws/install
+
+Name: ekf_aruco
+Description: Description of ekf_aruco
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: fiducial_msgs geometry_msgs roscpp std_msgs
